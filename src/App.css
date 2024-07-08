@@ -1,0 +1,36 @@
+body {
+  background-color: #e0f7fa; /* Fallback color if the background image is missing */
+  background-image: url('/Us Kids poster resized and cropped.jpg'); /* Correct path to your image */
+  background-size: cover; /* Ensure the image covers the whole background */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-position: center center; /* Center the image */
+  background-attachment: fixed; /* Keep the background fixed when scrolling */
+  color: #333; /* Text color for readability */
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #0066cc; /* Link color */
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+.home, .about, .store, .bands {
+  text-align: center;
+  padding: 50px;
+  background-color: rgba(255, 255, 255, 0.8); /* Light background with some opacity */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow for a nice effect */
+}
